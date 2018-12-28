@@ -7,14 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		437099390AFAAA61FE56FDF4 /* Pods_ios_lottie_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD7B7783553D0FC84D95F3D /* Pods_ios_lottie_demo.framework */; };
 		E415295821D59D2A0021CA2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E415295721D59D2A0021CA2C /* AppDelegate.swift */; };
 		E415295A21D59D2A0021CA2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E415295921D59D2A0021CA2C /* ViewController.swift */; };
 		E415295D21D59D2A0021CA2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E415295B21D59D2A0021CA2C /* Main.storyboard */; };
 		E415295F21D59D2C0021CA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E415295E21D59D2C0021CA2C /* Assets.xcassets */; };
 		E415296221D59D2C0021CA2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E415296021D59D2C0021CA2C /* LaunchScreen.storyboard */; };
+		E41529AC21D59D500021CA2C /* PieChart_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415296A21D59D4A0021CA2C /* PieChart_AnimOff.json */; };
+		E41529AD21D59D500021CA2C /* Telephone_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415296B21D59D4A0021CA2C /* Telephone_AnimOff.json */; };
+		E41529AE21D59D500021CA2C /* Printer_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415296C21D59D4A0021CA2C /* Printer_AnimOn.json */; };
+		E41529AF21D59D500021CA2C /* Download_Down.json in Resources */ = {isa = PBXBuildFile; fileRef = E415296D21D59D4A0021CA2C /* Download_Down.json */; };
+		E41529B021D59D500021CA2C /* Thumbsup_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415296E21D59D4A0021CA2C /* Thumbsup_AnimOn.json */; };
+		E41529B121D59D500021CA2C /* Screen_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415296F21D59D4A0021CA2C /* Screen_AnimOn.json */; };
+		E41529B221D59D500021CA2C /* Thumbsdown_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297021D59D4A0021CA2C /* Thumbsdown_AnimOff.json */; };
+		E41529B321D59D500021CA2C /* Screen_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297121D59D4A0021CA2C /* Screen_AnimOff.json */; };
+		E41529B421D59D500021CA2C /* Download_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297221D59D4A0021CA2C /* Download_AnimOff.json */; };
+		E41529B521D59D500021CA2C /* Telephone_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297321D59D4A0021CA2C /* Telephone_AnimOn.json */; };
+		E41529B621D59D500021CA2C /* SpeechBubble_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297421D59D4A0021CA2C /* SpeechBubble_AnimOn.json */; };
+		E41529B721D59D500021CA2C /* Maximize_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297521D59D4B0021CA2C /* Maximize_AnimOff.json */; };
+		E41529B821D59D500021CA2C /* Eye_Blinks.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297621D59D4B0021CA2C /* Eye_Blinks.json */; };
+		E41529B921D59D500021CA2C /* Share_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297721D59D4B0021CA2C /* Share_AnimOff.json */; };
+		E41529BA21D59D500021CA2C /* Thumbsup_Animate.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297821D59D4B0021CA2C /* Thumbsup_Animate.json */; };
+		E41529BB21D59D500021CA2C /* Globe_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297921D59D4B0021CA2C /* Globe_AnimOff.json */; };
+		E41529BC21D59D500021CA2C /* LoudMute_Loud.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297A21D59D4B0021CA2C /* LoudMute_Loud.json */; };
+		E41529BD21D59D500021CA2C /* PriceTag_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297B21D59D4B0021CA2C /* PriceTag_AnimOff.json */; };
+		E41529BE21D59D500021CA2C /* Paper_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297C21D59D4B0021CA2C /* Paper_AnimOff.json */; };
+		E41529BF21D59D500021CA2C /* Home_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297D21D59D4B0021CA2C /* Home_AnimOn.json */; };
+		E41529C021D59D500021CA2C /* Eye_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297E21D59D4B0021CA2C /* Eye_AnimOn.json */; };
+		E41529C121D59D500021CA2C /* Camera_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415297F21D59D4B0021CA2C /* Camera_AnimOff.json */; };
+		E41529C221D59D500021CA2C /* MagnifyingGlass_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298021D59D4B0021CA2C /* MagnifyingGlass_AnimOff.json */; };
+		E41529C321D59D500021CA2C /* Telephone_Ring.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298121D59D4B0021CA2C /* Telephone_Ring.json */; };
+		E41529C421D59D500021CA2C /* Thumbsup_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298221D59D4C0021CA2C /* Thumbsup_AnimOff.json */; };
+		E41529C521D59D500021CA2C /* UsePencil_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298321D59D4C0021CA2C /* UsePencil_AnimOff.json */; };
+		E41529C621D59D500021CA2C /* Home_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298421D59D4C0021CA2C /* Home_AnimOff.json */; };
+		E41529C721D59D500021CA2C /* Alarm_Ring.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298521D59D4C0021CA2C /* Alarm_Ring.json */; };
+		E41529C821D59D500021CA2C /* Printer_Print.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298621D59D4C0021CA2C /* Printer_Print.json */; };
+		E41529C921D59D500021CA2C /* Padlock_LockIt.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298721D59D4C0021CA2C /* Padlock_LockIt.json */; };
+		E41529CA21D59D500021CA2C /* BarChart_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298821D59D4C0021CA2C /* BarChart_AnimOff.json */; };
+		E41529CB21D59D500021CA2C /* ShoppingCart_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298921D59D4C0021CA2C /* ShoppingCart_AnimOff.json */; };
+		E41529CC21D59D500021CA2C /* Camera_Flash.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298A21D59D4C0021CA2C /* Camera_Flash.json */; };
+		E41529CD21D59D500021CA2C /* Alarm_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298B21D59D4C0021CA2C /* Alarm_AnimOff.json */; };
+		E41529CE21D59D500021CA2C /* SpeechBubble_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298C21D59D4C0021CA2C /* SpeechBubble_AnimOff.json */; };
+		E41529CF21D59D500021CA2C /* Thumbsdown_Animate.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298D21D59D4D0021CA2C /* Thumbsdown_Animate.json */; };
+		E41529D021D59D500021CA2C /* MagnifyingGlass_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298E21D59D4D0021CA2C /* MagnifyingGlass_AnimOn.json */; };
+		E41529D121D59D500021CA2C /* Globe_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415298F21D59D4D0021CA2C /* Globe_AnimOn.json */; };
+		E41529D221D59D500021CA2C /* BarChart_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299021D59D4D0021CA2C /* BarChart_AnimOn.json */; };
+		E41529D321D59D500021CA2C /* Camera_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299121D59D4D0021CA2C /* Camera_AnimOn.json */; };
+		E41529D421D59D500021CA2C /* Share_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299221D59D4D0021CA2C /* Share_AnimOn.json */; };
+		E41529D521D59D500021CA2C /* Padlock_UnlockIt.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299321D59D4D0021CA2C /* Padlock_UnlockIt.json */; };
+		E41529D621D59D500021CA2C /* Eye_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299421D59D4D0021CA2C /* Eye_AnimOff.json */; };
+		E41529D721D59D500021CA2C /* Text_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299521D59D4D0021CA2C /* Text_AnimOff.json */; };
+		E41529D821D59D500021CA2C /* Text_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299621D59D4D0021CA2C /* Text_AnimOn.json */; };
+		E41529D921D59D500021CA2C /* Minimize_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299721D59D4E0021CA2C /* Minimize_AnimOff.json */; };
+		E41529DA21D59D500021CA2C /* Printer_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299821D59D4E0021CA2C /* Printer_AnimOff.json */; };
+		E41529DB21D59D500021CA2C /* Reload_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299921D59D4E0021CA2C /* Reload_AnimOn.json */; };
+		E41529DC21D59D500021CA2C /* Paper_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299A21D59D4E0021CA2C /* Paper_AnimOn.json */; };
+		E41529DD21D59D500021CA2C /* ShoppingCart_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299B21D59D4E0021CA2C /* ShoppingCart_AnimOn.json */; };
+		E41529DE21D59D500021CA2C /* Minimize_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299C21D59D4E0021CA2C /* Minimize_AnimOn.json */; };
+		E41529DF21D59D500021CA2C /* FeverChart_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299D21D59D4E0021CA2C /* FeverChart_AnimOn.json */; };
+		E41529E021D59D500021CA2C /* Alarm_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299E21D59D4E0021CA2C /* Alarm_AnimOn.json */; };
+		E41529E121D59D500021CA2C /* SpeechBubble_Dots.json in Resources */ = {isa = PBXBuildFile; fileRef = E415299F21D59D4E0021CA2C /* SpeechBubble_Dots.json */; };
+		E41529E221D59D500021CA2C /* LoudMute_Mute.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529A021D59D4E0021CA2C /* LoudMute_Mute.json */; };
+		E41529E321D59D500021CA2C /* UsePencil_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529A121D59D4F0021CA2C /* UsePencil_AnimOn.json */; };
+		E41529E421D59D500021CA2C /* Maximize_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529A221D59D4F0021CA2C /* Maximize_AnimOn.json */; };
+		E41529E521D59D500021CA2C /* Heart_Beat.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529A321D59D4F0021CA2C /* Heart_Beat.json */; };
+		E41529E621D59D500021CA2C /* Reload_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529A421D59D4F0021CA2C /* Reload_AnimOff.json */; };
+		E41529E721D59D500021CA2C /* PieChart_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529A521D59D4F0021CA2C /* PieChart_AnimOn.json */; };
+		E41529E821D59D500021CA2C /* Thumbsdown_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529A621D59D4F0021CA2C /* Thumbsdown_AnimOn.json */; };
+		E41529E921D59D500021CA2C /* Download_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529A721D59D4F0021CA2C /* Download_AnimOn.json */; };
+		E41529EA21D59D500021CA2C /* Heart_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529A821D59D4F0021CA2C /* Heart_AnimOff.json */; };
+		E41529EB21D59D500021CA2C /* Heart_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529A921D59D4F0021CA2C /* Heart_AnimOn.json */; };
+		E41529EC21D59D500021CA2C /* PriceTag_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529AA21D59D500021CA2C /* PriceTag_AnimOn.json */; };
+		E41529ED21D59D500021CA2C /* FeverChart_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = E41529AB21D59D500021CA2C /* FeverChart_AnimOff.json */; };
+		E41529EF21D59E4C0021CA2C /* animations.plist in Resources */ = {isa = PBXBuildFile; fileRef = E41529EE21D59E4C0021CA2C /* animations.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DD7B7783553D0FC84D95F3D /* Pods_ios_lottie_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_lottie_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DFA0C3F75D27B64FB618C0 /* Pods-ios-lottie-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-lottie-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-lottie-demo/Pods-ios-lottie-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB458D65EA33C648E0834FEB /* Pods-ios-lottie-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-lottie-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-lottie-demo/Pods-ios-lottie-demo.release.xcconfig"; sourceTree = "<group>"; };
 		E415295421D59D2A0021CA2C /* ios-lottie-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-lottie-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E415295721D59D2A0021CA2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E415295921D59D2A0021CA2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +93,73 @@
 		E415295E21D59D2C0021CA2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E415296121D59D2C0021CA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E415296321D59D2C0021CA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E415296A21D59D4A0021CA2C /* PieChart_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PieChart_AnimOff.json; sourceTree = "<group>"; };
+		E415296B21D59D4A0021CA2C /* Telephone_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Telephone_AnimOff.json; sourceTree = "<group>"; };
+		E415296C21D59D4A0021CA2C /* Printer_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Printer_AnimOn.json; sourceTree = "<group>"; };
+		E415296D21D59D4A0021CA2C /* Download_Down.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Download_Down.json; sourceTree = "<group>"; };
+		E415296E21D59D4A0021CA2C /* Thumbsup_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsup_AnimOn.json; sourceTree = "<group>"; };
+		E415296F21D59D4A0021CA2C /* Screen_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Screen_AnimOn.json; sourceTree = "<group>"; };
+		E415297021D59D4A0021CA2C /* Thumbsdown_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsdown_AnimOff.json; sourceTree = "<group>"; };
+		E415297121D59D4A0021CA2C /* Screen_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Screen_AnimOff.json; sourceTree = "<group>"; };
+		E415297221D59D4A0021CA2C /* Download_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Download_AnimOff.json; sourceTree = "<group>"; };
+		E415297321D59D4A0021CA2C /* Telephone_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Telephone_AnimOn.json; sourceTree = "<group>"; };
+		E415297421D59D4A0021CA2C /* SpeechBubble_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SpeechBubble_AnimOn.json; sourceTree = "<group>"; };
+		E415297521D59D4B0021CA2C /* Maximize_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Maximize_AnimOff.json; sourceTree = "<group>"; };
+		E415297621D59D4B0021CA2C /* Eye_Blinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Eye_Blinks.json; sourceTree = "<group>"; };
+		E415297721D59D4B0021CA2C /* Share_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Share_AnimOff.json; sourceTree = "<group>"; };
+		E415297821D59D4B0021CA2C /* Thumbsup_Animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsup_Animate.json; sourceTree = "<group>"; };
+		E415297921D59D4B0021CA2C /* Globe_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Globe_AnimOff.json; sourceTree = "<group>"; };
+		E415297A21D59D4B0021CA2C /* LoudMute_Loud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoudMute_Loud.json; sourceTree = "<group>"; };
+		E415297B21D59D4B0021CA2C /* PriceTag_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PriceTag_AnimOff.json; sourceTree = "<group>"; };
+		E415297C21D59D4B0021CA2C /* Paper_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Paper_AnimOff.json; sourceTree = "<group>"; };
+		E415297D21D59D4B0021CA2C /* Home_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home_AnimOn.json; sourceTree = "<group>"; };
+		E415297E21D59D4B0021CA2C /* Eye_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Eye_AnimOn.json; sourceTree = "<group>"; };
+		E415297F21D59D4B0021CA2C /* Camera_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Camera_AnimOff.json; sourceTree = "<group>"; };
+		E415298021D59D4B0021CA2C /* MagnifyingGlass_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MagnifyingGlass_AnimOff.json; sourceTree = "<group>"; };
+		E415298121D59D4B0021CA2C /* Telephone_Ring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Telephone_Ring.json; sourceTree = "<group>"; };
+		E415298221D59D4C0021CA2C /* Thumbsup_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsup_AnimOff.json; sourceTree = "<group>"; };
+		E415298321D59D4C0021CA2C /* UsePencil_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UsePencil_AnimOff.json; sourceTree = "<group>"; };
+		E415298421D59D4C0021CA2C /* Home_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home_AnimOff.json; sourceTree = "<group>"; };
+		E415298521D59D4C0021CA2C /* Alarm_Ring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Alarm_Ring.json; sourceTree = "<group>"; };
+		E415298621D59D4C0021CA2C /* Printer_Print.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Printer_Print.json; sourceTree = "<group>"; };
+		E415298721D59D4C0021CA2C /* Padlock_LockIt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Padlock_LockIt.json; sourceTree = "<group>"; };
+		E415298821D59D4C0021CA2C /* BarChart_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BarChart_AnimOff.json; sourceTree = "<group>"; };
+		E415298921D59D4C0021CA2C /* ShoppingCart_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShoppingCart_AnimOff.json; sourceTree = "<group>"; };
+		E415298A21D59D4C0021CA2C /* Camera_Flash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Camera_Flash.json; sourceTree = "<group>"; };
+		E415298B21D59D4C0021CA2C /* Alarm_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Alarm_AnimOff.json; sourceTree = "<group>"; };
+		E415298C21D59D4C0021CA2C /* SpeechBubble_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SpeechBubble_AnimOff.json; sourceTree = "<group>"; };
+		E415298D21D59D4D0021CA2C /* Thumbsdown_Animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsdown_Animate.json; sourceTree = "<group>"; };
+		E415298E21D59D4D0021CA2C /* MagnifyingGlass_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MagnifyingGlass_AnimOn.json; sourceTree = "<group>"; };
+		E415298F21D59D4D0021CA2C /* Globe_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Globe_AnimOn.json; sourceTree = "<group>"; };
+		E415299021D59D4D0021CA2C /* BarChart_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BarChart_AnimOn.json; sourceTree = "<group>"; };
+		E415299121D59D4D0021CA2C /* Camera_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Camera_AnimOn.json; sourceTree = "<group>"; };
+		E415299221D59D4D0021CA2C /* Share_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Share_AnimOn.json; sourceTree = "<group>"; };
+		E415299321D59D4D0021CA2C /* Padlock_UnlockIt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Padlock_UnlockIt.json; sourceTree = "<group>"; };
+		E415299421D59D4D0021CA2C /* Eye_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Eye_AnimOff.json; sourceTree = "<group>"; };
+		E415299521D59D4D0021CA2C /* Text_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Text_AnimOff.json; sourceTree = "<group>"; };
+		E415299621D59D4D0021CA2C /* Text_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Text_AnimOn.json; sourceTree = "<group>"; };
+		E415299721D59D4E0021CA2C /* Minimize_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Minimize_AnimOff.json; sourceTree = "<group>"; };
+		E415299821D59D4E0021CA2C /* Printer_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Printer_AnimOff.json; sourceTree = "<group>"; };
+		E415299921D59D4E0021CA2C /* Reload_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Reload_AnimOn.json; sourceTree = "<group>"; };
+		E415299A21D59D4E0021CA2C /* Paper_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Paper_AnimOn.json; sourceTree = "<group>"; };
+		E415299B21D59D4E0021CA2C /* ShoppingCart_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShoppingCart_AnimOn.json; sourceTree = "<group>"; };
+		E415299C21D59D4E0021CA2C /* Minimize_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Minimize_AnimOn.json; sourceTree = "<group>"; };
+		E415299D21D59D4E0021CA2C /* FeverChart_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeverChart_AnimOn.json; sourceTree = "<group>"; };
+		E415299E21D59D4E0021CA2C /* Alarm_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Alarm_AnimOn.json; sourceTree = "<group>"; };
+		E415299F21D59D4E0021CA2C /* SpeechBubble_Dots.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SpeechBubble_Dots.json; sourceTree = "<group>"; };
+		E41529A021D59D4E0021CA2C /* LoudMute_Mute.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoudMute_Mute.json; sourceTree = "<group>"; };
+		E41529A121D59D4F0021CA2C /* UsePencil_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UsePencil_AnimOn.json; sourceTree = "<group>"; };
+		E41529A221D59D4F0021CA2C /* Maximize_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Maximize_AnimOn.json; sourceTree = "<group>"; };
+		E41529A321D59D4F0021CA2C /* Heart_Beat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Heart_Beat.json; sourceTree = "<group>"; };
+		E41529A421D59D4F0021CA2C /* Reload_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Reload_AnimOff.json; sourceTree = "<group>"; };
+		E41529A521D59D4F0021CA2C /* PieChart_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PieChart_AnimOn.json; sourceTree = "<group>"; };
+		E41529A621D59D4F0021CA2C /* Thumbsdown_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsdown_AnimOn.json; sourceTree = "<group>"; };
+		E41529A721D59D4F0021CA2C /* Download_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Download_AnimOn.json; sourceTree = "<group>"; };
+		E41529A821D59D4F0021CA2C /* Heart_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Heart_AnimOff.json; sourceTree = "<group>"; };
+		E41529A921D59D4F0021CA2C /* Heart_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Heart_AnimOn.json; sourceTree = "<group>"; };
+		E41529AA21D59D500021CA2C /* PriceTag_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PriceTag_AnimOn.json; sourceTree = "<group>"; };
+		E41529AB21D59D500021CA2C /* FeverChart_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeverChart_AnimOff.json; sourceTree = "<group>"; };
+		E41529EE21D59E4C0021CA2C /* animations.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = animations.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +167,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437099390AFAAA61FE56FDF4 /* Pods_ios_lottie_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CDC4B8058157C2880B63FAF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93DFA0C3F75D27B64FB618C0 /* Pods-ios-lottie-demo.debug.xcconfig */,
+				AB458D65EA33C648E0834FEB /* Pods-ios-lottie-demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D872C1D3E7E7E0BF9EAB6050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DD7B7783553D0FC84D95F3D /* Pods_ios_lottie_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E415294B21D59D2A0021CA2C = {
 			isa = PBXGroup;
 			children = (
 				E415295621D59D2A0021CA2C /* ios-lottie-demo */,
 				E415295521D59D2A0021CA2C /* Products */,
+				CDC4B8058157C2880B63FAF0 /* Pods */,
+				D872C1D3E7E7E0BF9EAB6050 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +212,89 @@
 		E415295621D59D2A0021CA2C /* ios-lottie-demo */ = {
 			isa = PBXGroup;
 			children = (
+				E415296921D59D360021CA2C /* LottieAnimations */,
 				E415295721D59D2A0021CA2C /* AppDelegate.swift */,
 				E415295921D59D2A0021CA2C /* ViewController.swift */,
 				E415295B21D59D2A0021CA2C /* Main.storyboard */,
 				E415295E21D59D2C0021CA2C /* Assets.xcassets */,
 				E415296021D59D2C0021CA2C /* LaunchScreen.storyboard */,
 				E415296321D59D2C0021CA2C /* Info.plist */,
+				E41529EE21D59E4C0021CA2C /* animations.plist */,
 			);
 			path = "ios-lottie-demo";
+			sourceTree = "<group>";
+		};
+		E415296921D59D360021CA2C /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				E415298B21D59D4C0021CA2C /* Alarm_AnimOff.json */,
+				E415299E21D59D4E0021CA2C /* Alarm_AnimOn.json */,
+				E415298521D59D4C0021CA2C /* Alarm_Ring.json */,
+				E415298821D59D4C0021CA2C /* BarChart_AnimOff.json */,
+				E415299021D59D4D0021CA2C /* BarChart_AnimOn.json */,
+				E415297F21D59D4B0021CA2C /* Camera_AnimOff.json */,
+				E415299121D59D4D0021CA2C /* Camera_AnimOn.json */,
+				E415298A21D59D4C0021CA2C /* Camera_Flash.json */,
+				E415297221D59D4A0021CA2C /* Download_AnimOff.json */,
+				E41529A721D59D4F0021CA2C /* Download_AnimOn.json */,
+				E415296D21D59D4A0021CA2C /* Download_Down.json */,
+				E415299421D59D4D0021CA2C /* Eye_AnimOff.json */,
+				E415297E21D59D4B0021CA2C /* Eye_AnimOn.json */,
+				E415297621D59D4B0021CA2C /* Eye_Blinks.json */,
+				E41529AB21D59D500021CA2C /* FeverChart_AnimOff.json */,
+				E415299D21D59D4E0021CA2C /* FeverChart_AnimOn.json */,
+				E415297921D59D4B0021CA2C /* Globe_AnimOff.json */,
+				E415298F21D59D4D0021CA2C /* Globe_AnimOn.json */,
+				E41529A821D59D4F0021CA2C /* Heart_AnimOff.json */,
+				E41529A921D59D4F0021CA2C /* Heart_AnimOn.json */,
+				E41529A321D59D4F0021CA2C /* Heart_Beat.json */,
+				E415298421D59D4C0021CA2C /* Home_AnimOff.json */,
+				E415297D21D59D4B0021CA2C /* Home_AnimOn.json */,
+				E415297A21D59D4B0021CA2C /* LoudMute_Loud.json */,
+				E41529A021D59D4E0021CA2C /* LoudMute_Mute.json */,
+				E415298021D59D4B0021CA2C /* MagnifyingGlass_AnimOff.json */,
+				E415298E21D59D4D0021CA2C /* MagnifyingGlass_AnimOn.json */,
+				E415297521D59D4B0021CA2C /* Maximize_AnimOff.json */,
+				E41529A221D59D4F0021CA2C /* Maximize_AnimOn.json */,
+				E415299721D59D4E0021CA2C /* Minimize_AnimOff.json */,
+				E415299C21D59D4E0021CA2C /* Minimize_AnimOn.json */,
+				E415298721D59D4C0021CA2C /* Padlock_LockIt.json */,
+				E415299321D59D4D0021CA2C /* Padlock_UnlockIt.json */,
+				E415297C21D59D4B0021CA2C /* Paper_AnimOff.json */,
+				E415299A21D59D4E0021CA2C /* Paper_AnimOn.json */,
+				E415296A21D59D4A0021CA2C /* PieChart_AnimOff.json */,
+				E41529A521D59D4F0021CA2C /* PieChart_AnimOn.json */,
+				E415297B21D59D4B0021CA2C /* PriceTag_AnimOff.json */,
+				E41529AA21D59D500021CA2C /* PriceTag_AnimOn.json */,
+				E415299821D59D4E0021CA2C /* Printer_AnimOff.json */,
+				E415296C21D59D4A0021CA2C /* Printer_AnimOn.json */,
+				E415298621D59D4C0021CA2C /* Printer_Print.json */,
+				E41529A421D59D4F0021CA2C /* Reload_AnimOff.json */,
+				E415299921D59D4E0021CA2C /* Reload_AnimOn.json */,
+				E415297121D59D4A0021CA2C /* Screen_AnimOff.json */,
+				E415296F21D59D4A0021CA2C /* Screen_AnimOn.json */,
+				E415297721D59D4B0021CA2C /* Share_AnimOff.json */,
+				E415299221D59D4D0021CA2C /* Share_AnimOn.json */,
+				E415298921D59D4C0021CA2C /* ShoppingCart_AnimOff.json */,
+				E415299B21D59D4E0021CA2C /* ShoppingCart_AnimOn.json */,
+				E415298C21D59D4C0021CA2C /* SpeechBubble_AnimOff.json */,
+				E415297421D59D4A0021CA2C /* SpeechBubble_AnimOn.json */,
+				E415299F21D59D4E0021CA2C /* SpeechBubble_Dots.json */,
+				E415296B21D59D4A0021CA2C /* Telephone_AnimOff.json */,
+				E415297321D59D4A0021CA2C /* Telephone_AnimOn.json */,
+				E415298121D59D4B0021CA2C /* Telephone_Ring.json */,
+				E415299521D59D4D0021CA2C /* Text_AnimOff.json */,
+				E415299621D59D4D0021CA2C /* Text_AnimOn.json */,
+				E415298D21D59D4D0021CA2C /* Thumbsdown_Animate.json */,
+				E415297021D59D4A0021CA2C /* Thumbsdown_AnimOff.json */,
+				E41529A621D59D4F0021CA2C /* Thumbsdown_AnimOn.json */,
+				E415297821D59D4B0021CA2C /* Thumbsup_Animate.json */,
+				E415298221D59D4C0021CA2C /* Thumbsup_AnimOff.json */,
+				E415296E21D59D4A0021CA2C /* Thumbsup_AnimOn.json */,
+				E415298321D59D4C0021CA2C /* UsePencil_AnimOff.json */,
+				E41529A121D59D4F0021CA2C /* UsePencil_AnimOn.json */,
+			);
+			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E415296621D59D2C0021CA2C /* Build configuration list for PBXNativeTarget "ios-lottie-demo" */;
 			buildPhases = (
+				C8F6FDD28114215393E9C483 /* [CP] Check Pods Manifest.lock */,
 				E415295021D59D2A0021CA2C /* Sources */,
 				E415295121D59D2A0021CA2C /* Frameworks */,
 				E415295221D59D2A0021CA2C /* Resources */,
+				19EFCFEC91C903EFCEFFADB8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +357,119 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41529BC21D59D500021CA2C /* LoudMute_Loud.json in Resources */,
+				E41529CB21D59D500021CA2C /* ShoppingCart_AnimOff.json in Resources */,
+				E41529B521D59D500021CA2C /* Telephone_AnimOn.json in Resources */,
+				E41529EA21D59D500021CA2C /* Heart_AnimOff.json in Resources */,
+				E41529EC21D59D500021CA2C /* PriceTag_AnimOn.json in Resources */,
+				E41529C221D59D500021CA2C /* MagnifyingGlass_AnimOff.json in Resources */,
+				E41529B421D59D500021CA2C /* Download_AnimOff.json in Resources */,
+				E41529E221D59D500021CA2C /* LoudMute_Mute.json in Resources */,
+				E41529EB21D59D500021CA2C /* Heart_AnimOn.json in Resources */,
+				E41529ED21D59D500021CA2C /* FeverChart_AnimOff.json in Resources */,
+				E41529C021D59D500021CA2C /* Eye_AnimOn.json in Resources */,
+				E41529BD21D59D500021CA2C /* PriceTag_AnimOff.json in Resources */,
+				E41529E721D59D500021CA2C /* PieChart_AnimOn.json in Resources */,
+				E41529E021D59D500021CA2C /* Alarm_AnimOn.json in Resources */,
+				E41529E821D59D500021CA2C /* Thumbsdown_AnimOn.json in Resources */,
+				E41529BF21D59D500021CA2C /* Home_AnimOn.json in Resources */,
+				E41529CE21D59D500021CA2C /* SpeechBubble_AnimOff.json in Resources */,
+				E41529E621D59D500021CA2C /* Reload_AnimOff.json in Resources */,
+				E41529E921D59D500021CA2C /* Download_AnimOn.json in Resources */,
+				E41529AE21D59D500021CA2C /* Printer_AnimOn.json in Resources */,
+				E41529D721D59D500021CA2C /* Text_AnimOff.json in Resources */,
+				E41529D221D59D500021CA2C /* BarChart_AnimOn.json in Resources */,
+				E41529D121D59D500021CA2C /* Globe_AnimOn.json in Resources */,
+				E41529C521D59D500021CA2C /* UsePencil_AnimOff.json in Resources */,
+				E41529D521D59D500021CA2C /* Padlock_UnlockIt.json in Resources */,
+				E41529AF21D59D500021CA2C /* Download_Down.json in Resources */,
+				E41529CC21D59D500021CA2C /* Camera_Flash.json in Resources */,
+				E41529DF21D59D500021CA2C /* FeverChart_AnimOn.json in Resources */,
+				E41529DB21D59D500021CA2C /* Reload_AnimOn.json in Resources */,
+				E41529D921D59D500021CA2C /* Minimize_AnimOff.json in Resources */,
+				E41529DD21D59D500021CA2C /* ShoppingCart_AnimOn.json in Resources */,
+				E41529D621D59D500021CA2C /* Eye_AnimOff.json in Resources */,
+				E41529C821D59D500021CA2C /* Printer_Print.json in Resources */,
+				E41529AC21D59D500021CA2C /* PieChart_AnimOff.json in Resources */,
+				E41529C621D59D500021CA2C /* Home_AnimOff.json in Resources */,
+				E41529C121D59D500021CA2C /* Camera_AnimOff.json in Resources */,
+				E41529B221D59D500021CA2C /* Thumbsdown_AnimOff.json in Resources */,
+				E41529E421D59D500021CA2C /* Maximize_AnimOn.json in Resources */,
 				E415296221D59D2C0021CA2C /* LaunchScreen.storyboard in Resources */,
+				E41529AD21D59D500021CA2C /* Telephone_AnimOff.json in Resources */,
+				E41529E121D59D500021CA2C /* SpeechBubble_Dots.json in Resources */,
+				E41529B021D59D500021CA2C /* Thumbsup_AnimOn.json in Resources */,
 				E415295F21D59D2C0021CA2C /* Assets.xcassets in Resources */,
+				E41529CD21D59D500021CA2C /* Alarm_AnimOff.json in Resources */,
+				E41529DA21D59D500021CA2C /* Printer_AnimOff.json in Resources */,
+				E41529B121D59D500021CA2C /* Screen_AnimOn.json in Resources */,
+				E41529B621D59D500021CA2C /* SpeechBubble_AnimOn.json in Resources */,
+				E41529B821D59D500021CA2C /* Eye_Blinks.json in Resources */,
+				E41529DE21D59D500021CA2C /* Minimize_AnimOn.json in Resources */,
 				E415295D21D59D2A0021CA2C /* Main.storyboard in Resources */,
+				E41529C321D59D500021CA2C /* Telephone_Ring.json in Resources */,
+				E41529C921D59D500021CA2C /* Padlock_LockIt.json in Resources */,
+				E41529CF21D59D500021CA2C /* Thumbsdown_Animate.json in Resources */,
+				E41529B921D59D500021CA2C /* Share_AnimOff.json in Resources */,
+				E41529BB21D59D500021CA2C /* Globe_AnimOff.json in Resources */,
+				E41529CA21D59D500021CA2C /* BarChart_AnimOff.json in Resources */,
+				E41529E521D59D500021CA2C /* Heart_Beat.json in Resources */,
+				E41529BA21D59D500021CA2C /* Thumbsup_Animate.json in Resources */,
+				E41529C421D59D500021CA2C /* Thumbsup_AnimOff.json in Resources */,
+				E41529E321D59D500021CA2C /* UsePencil_AnimOn.json in Resources */,
+				E41529D421D59D500021CA2C /* Share_AnimOn.json in Resources */,
+				E41529BE21D59D500021CA2C /* Paper_AnimOff.json in Resources */,
+				E41529D321D59D500021CA2C /* Camera_AnimOn.json in Resources */,
+				E41529DC21D59D500021CA2C /* Paper_AnimOn.json in Resources */,
+				E41529B721D59D500021CA2C /* Maximize_AnimOff.json in Resources */,
+				E41529B321D59D500021CA2C /* Screen_AnimOff.json in Resources */,
+				E41529C721D59D500021CA2C /* Alarm_Ring.json in Resources */,
+				E41529EF21D59E4C0021CA2C /* animations.plist in Resources */,
+				E41529D821D59D500021CA2C /* Text_AnimOn.json in Resources */,
+				E41529D021D59D500021CA2C /* MagnifyingGlass_AnimOn.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19EFCFEC91C903EFCEFFADB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-lottie-demo/Pods-ios-lottie-demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-lottie-demo/Pods-ios-lottie-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F6FDD28114215393E9C483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-lottie-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E415295021D59D2A0021CA2C /* Sources */ = {
@@ -280,6 +621,7 @@
 		};
 		E415296721D59D2C0021CA2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DFA0C3F75D27B64FB618C0 /* Pods-ios-lottie-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +639,7 @@
 		};
 		E415296821D59D2C0021CA2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB458D65EA33C648E0834FEB /* Pods-ios-lottie-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
